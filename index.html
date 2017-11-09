@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="">
+
+		<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- <link rel="icon" href="/software/noto/favicon.ico"> -->
+
+	<title>Bruno Philipe</title>
+
+	<link href="/newsite/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/newsite/css/theme.min.css" rel="stylesheet">
+	<link href="/newsite/css/bruno.css" rel="stylesheet">
+
+	<body>
+
+			<!-- Fixed navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<span class="navbar-brand">Bruno Philipe</span>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="/newsite/">About Me</a></li>
+					<li><a href="/newsite/">Blog</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-center">
+					<li><a class="navbar-brand" href="/newsite/">Bruno Philipe</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li id="menu-github"><a href="https://github.com/brunophilipe" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+					<li><a href="https://www.brunophilipe.com/contact" rel="noopener noreferrer">Contact</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+
+		<main role="main" aria-label="Content">
+			
+<div class="container" id="homepage">
+	<div class="row">
+		<div class="col-lg-12">
+			<p class="title">Software Engineer</p>
+			<p class="subtitle">I believe in pretty user interfaces and modular code.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<h4>Recent Projects</h4>
+		</div>
+	</div>
+	<article>
+		<div class="section">
+			<p class="title">Noto</p>
+			<p class="subtitle">Plain-text editor for macOS.</p>
+			<p>
+				<span class="label label-primary">macOS</span>
+				<span class="label label-primary">Cocoa</span>
+				<span class="label label-primary">Swift</span>
+			</p>
+		</div>
+		<div class="sidenote">
+			<figure class="mac-screenshot">
+				<img src="/newsite/images/projects/noto.png" data-rjs="/newsite/images/projects/noto@2x.png" alt="Screenshot of Noto">
+			</figure>
+		</div>
+		<div class="section">
+			<p>A plain-text editor for macOS with a focus on a minimalistic user interface and powerful themes functionality.</p>
+			<p>Because some people prefer light text on dark background, others dark text on white backgrounds, some others enjoy sepia tones, and others something completely different, it seemed an important feature to allow the user to pick whichever colors they want for the entire document interface.</p>
+			<p>This project was inspired on a previous project of mine, TipTyper, which was also a plain-text editor, but written in Objective-C. That was a project that taught me Cocoa programming. Now that I feel I have a good knowledge of that library, it felt appropriate to re-do that project, but now using the fantastic Swift programming language.</p>
+			<p class="more-link">
+				<a href="#" class="btn bg-primary">Read More</a>
+			</p>
+		</div>
+	</article>
+	<article>
+		<div class="section">
+			<p class="title">Cakebrew</p>
+			<p class="subtitle">Graphical interface for Homebrew package manager.</p>
+			<p>
+				<span class="label label-primary">macOS</span>
+				<span class="label label-primary">Cocoa</span>
+				<span class="label label-primary">Objective-C</span>
+			</p>
+		</div>
+		<div class="sidenote">
+			<figure class="mac-screenshot">
+				<img src="/newsite/images/projects/cakebrew.png" data-rjs="/newsite/images/projects/cakebrew@2x.png" alt="Screenshot of Cakebrew">
+			</figure>
+		</div>
+		<div class="section">
+			<p>Graphical interfaces for package managers already existed for several (if not all) Linux distros, but there were none for Mac. I decided it would be a good opportunity to learn more about Cocoa development, and I had a lot of fun doing it.</p>
+			<p>After a couple of bloggers mentioned Cakebrew in their work, it showed up on <a href="https://news.ycombinator.com/item?id=7668383" rel="noopener" target="_blank">Hacker News </a>, where it got 300+ points. That week the project popularity exploded: several GBs of traffic were observed in its homepage, and it was featured on GitHub trending repositories.</p>
+			<p>After that, and over time, several people contributed to the project, and it evolved gracefully for a couple of years. Development stagnated after I started working full-time, and I never had the time to go over it again and do the improvements I want.</p>
+			<p>Overall it makes available most of the basic features through the UI, and it still works well. Occasionally I still release updates to fix bugs when required.</p>
+			<p class="more-link">
+				<a href="#" class="btn bg-primary">Read More</a>
+			</p>
+		</div>
+	</article>
+	<article>
+		<div class="section">
+			<p class="title">tune</p>
+			<p class="subtitle">Command-line interface for iTunes.</p>
+			<p>
+				<span class="label label-primary">macOS</span>
+				<span class="label label-primary">ScriptingBridge</span>
+				<span class="label label-primary">Swift</span>
+			</p>
+		</div>
+		<div class="sidenote">
+			<figure class="mac-screenshot">
+				<img src="/newsite/images/projects/tune.png" data-rjs="/newsite/images/projects/tune@2x.png" alt="Screenshot of Noto">
+			</figure>
+		</div>
+		<div class="section">
+			<p>Many times while at work, or while managing one of my VPS machines, I felt like I wanted to play some specific song from my iTunes library. But because I had my screen covered with several terminal sessions, many times in full-screen, it felt like doing this  and then breaking my workflow was too much effort.</p>
+			<p>So in a reversal of what I did with Cakebrew, I wrote a command-line tool to control a graphical application. Because ScriptingBridge, a fantastic feature from the heydays of Mac OS X, is still present in macOS, this was as easy as it can be. A simple programming interface is auto-generated, to which you can link and build code that sends and receives information from other applications.</p>
+			<p>A first version was a simple command line input-output program, with at most a single prompt in case your query produced more than one relevant result. Later I rewrote almost the entire thing to have a prettier text interface, using <code>ncurses</code>.</p>
+			<p class="more-link">
+				<a href="#" class="btn bg-primary">Read More</a>
+			</p>
+		</div>
+	</article>
+	<article>
+		<div class="section">
+			<p class="title">Is It Down?</p>
+			<p class="subtitle">Service uptime checker widget for iOS.</p>
+		</div>
+		<div class="sidenote">
+			<figure class="phone-frame-trimmed">
+				<img src="/newsite/images/projects/is-it-down.png" data-rjs="/newsite/images/projects/is-it-down@2x.png" alt="Screenshot of Noto">
+			</figure>
+		</div>
+		<div class="section">
+			<p>Widgets are meant to provide data that is brief and meaningful at a glance. When lock sreen widgets were announced, I quickly came up with the idea of this widget.</p>
+			<p>It allows the user to pick which servers, and individual ports on each server, to test every time the widget becomes visible. Due to the limitations of the widget framework on iOS, it is not feasible to run the checks on the background and send notifications to the user, but it still works well enough.</p>
+			<p>This is my most popular app in the App Store, and I believe it is because it has a simple premise, and delivers on it well. It was a simple App to develop, but I don't think this diminishes its relevance at all.</p>
+			<p class="more-link">
+				<a href="#" class="btn bg-primary">Read More</a>
+			</p>
+		</div>
+		<div class="clearfix"></div>
+	</article>
+	<article>
+		<div class="section">
+			<p class="title">Nixie Watch</p>
+			<p class="subtitle">Nixie-tube watch “face” for Apple Watch.</p>
+		</div>
+		<div class="sidenote">
+			<figure class="watch-frame">
+				<video playsinline onclick="this.style.opacity=1.0;this.play()" onended="this.style.opacity=0.0" style="position: absolute; margin-left: 74px; margin-top: 157px; height: 167px; width: 154px; opacity: 0.0; cursor: pointer;">
+					<source src="/newsite/videos/nixie-watch.mp4" type="video/mp4">
+				</video>
+				<img src="/newsite/images/projects/nixie-watch.png" data-rjs="/newsite/images/projects/nixie-watch@2x.png" alt="Screenshot of Noto">
+				<p class="caption caption-instruction">Tap watch to run animation</p>
+			</figure>
+		</div>
+		<div class="section">
+			<p>A plain-text editor for macOS with a focus on a minimalistic user interface and powerful themes functionality.</p>
+			<p>Because some people prefer light text on dark background, others dark text on white backgrounds, some others enjoy sepia tones, and others something completely different, it seemed an important feature to allow the user to pick whichever colors they want for the entire document interface.</p>
+			<p>This project was inspired on a previous project of mine, TipTyper. That was also a plain-text editor, but written in Objective-C. That was a project that taught me Cocoa programming. Now that I feel I have a good knowledge of that library, it felt appropriate to re-do that project, but now using the fantastic Swift programming language.</p>
+			<p class="more-link">
+				<a href="#" class="btn bg-primary">Read More</a>
+			</p>
+		</div>
+	</article>
+</div>
+
+		</main>
+
+			<footer>
+		<div class="container">
+			<p>Website &copy; 2017 <a href="https://www.brunophilipe.com">Bruno Philipe</a> &mdash; All Rights Reserved.</p>
+		</div>
+	</footer>
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<!--<script type="text/javascript" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="/newsite/js/jquery-3.2.1.slim.min.js"></script>-->
+	<!--<script type="text/javascript" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="/newsite/js/bootstrap.min.js"></script>-->
+	<script type="text/javascript" integrity="sha384-moWN90I6DD72oDsAsCPhqNG10H9Jk5WAYSkHXq7rWl9WqAmNA9t5cW31jyXVEIEp" src="/newsite/js/retina.js"></script>
+	<script type="text/javascript">
+//		var i=0;
+//		function setMonthEmoji(monthIndex) {
+//            var monthEmoji = '';
+//
+//            switch (monthIndex)
+//            {
+//                case 0: monthEmoji = '🎆'; break;
+//                case 1: monthEmoji = ''; break;
+//                case 2: monthEmoji = '🌷'; break;
+//                case 3: monthEmoji = '🐰'; break;
+//                case 4: monthEmoji = '👩‍👦'; break;
+//                case 5: monthEmoji = '🌈'; break;
+//                case 6: monthEmoji = '☀️'; break;
+//                case 7: monthEmoji = '🎁'; break;
+//                case 8: monthEmoji = '🍂'; break;
+//                case 9: monthEmoji = '🎃'; break;
+//                case 10: monthEmoji = '🇧🇷'; break;
+//                case 11: monthEmoji = '🎄'; break;
+//            }
+//
+//            $('.navbar-brand').html(monthEmoji + ' Bruno Philipe');
+//        }
+//
+//        setInterval(function () { setMonthEmoji(i++%12); }, 2000);
+	</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,304 @@
+body
+{
+	margin-top: 51px;
+}
+
+main
+{
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+}
+
+iframe.github
+{
+	border: 0;
+	overflow: hidden;
+}
+
+.float-right
+{
+	float: right;
+}
+
+.float-left
+{
+	float: left;
+}
+
+::selection
+{
+    background-color: rgba(225, 42, 88, 0.85);
+}
+
+/* NAV BAR */
+
+#navbar
+{
+    text-align: center;
+}
+
+.navbar-default
+{
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-default .navbar-brand
+{
+    font-weight: 600;
+}
+
+.navbar-nav.navbar-left
+{
+    margin-left: -15px;
+}
+
+.navbar-nav.navbar-center
+{
+    float: none;
+    display: none;
+    padding-left: 15px;
+}
+
+.navbar-nav.navbar-left
+{
+    margin-bottom: 0;
+}
+
+.navbar-nav.navbar-center + .navbar-nav.navbar-right
+{
+    margin-top: 0;
+}
+
+.navbar-brand
+{
+    font-size: 26px;
+}
+
+#menu-github a
+{
+	background-image: url(../images/github.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-position: left 29px;
+	padding-left: 22px;
+}
+
+#menu-github a:hover
+{
+	background-image: url(../images/github_hover.png);
+}
+
+/* HOME PAGE */
+
+/* CONTENT */
+
+.btn
+{
+    font-weight: bold;
+}
+
+a.btn:hover
+{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+p.title
+{
+    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+p.subtitle
+{
+    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+article
+{
+    line-height: 2;
+    padding-top: 20px;
+}
+
+article .label
+{
+    padding-top: 3px;
+}
+
+article::before
+{
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    height: 6px;
+    background-color: #1a1a1a;
+}
+
+article .section
+{
+    width: 100%;
+}
+
+article .section p.more-link
+{
+    margin-top: 30px;
+}
+
+article .section p.title:last-child, article .section p.subtitle:last-child
+{
+    margin-bottom: 20px;
+}
+
+article .sidenote
+{
+    width: 100%;
+    text-align: center;
+}
+
+article .sidenote img
+{
+    box-sizing: content-box;
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+
+article .sidenote figure
+{
+    width: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+p.caption
+{
+    text-align: center;
+}
+
+p.caption-instruction
+{
+    color: #aaaaaa;
+    font-weight: 600;
+}
+
+article .sidenote figure.mac-screenshot > img + p.caption
+{
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+article .sidenote figure.phone-frame-trimmed
+{
+    margin: 40px 0;
+}
+
+article .sidenote figure.watch-frame > img + p.caption
+{
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #111;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* HELPERS */
+
+@media screen and (min-width: 768px)
+{
+    span.navbar-brand
+    {
+        display: none;
+    }
+
+    .navbar-nav.navbar-center
+    {
+        display: inline-block;
+    }
+
+    .navbar-nav.navbar-center a.navbar-brand
+    {
+        padding-bottom: 0;
+        margin-bottom: -15px;
+    }
+
+    article .section
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+    article .section
+    {
+        width: 45%;
+    }
+
+    article .sidenote
+    {
+        width: 55%;
+        float: right;
+        text-align: center;
+        overflow: visible;
+    }
+
+    article .sidenote figure
+    {
+        display: block;
+        overflow: scroll;
+        float: left;
+    }
+
+    article .sidenote figure img
+    {
+        display: inline;
+        max-width: none;
+    }
+
+    article .sidenote figure.mac-screenshot
+    {
+        margin-top: -25px;
+        margin-bottom: 25px;
+    }
+
+    article .sidenote figure.phone-frame-trimmed
+    {
+        margin: 0 40px 30px;
+    }
+
+    article .sidenote figure.watch-frame
+    {
+        margin-top: -35px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Retina-specific stuff here */
+	#menu-github a {
+		background-image: url(../images/github@2x.png);
+	}
+	
+	#menu-github a:hover {
+		background-image: url(../images/github_hover@2x.png);
+	}
+}

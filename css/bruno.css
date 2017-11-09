@@ -108,7 +108,7 @@ a.btn:hover
 
 p.title
 {
-    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: #ffffff;
@@ -118,7 +118,7 @@ p.title
 
 p.subtitle
 {
-    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: #ffffff;
@@ -213,10 +213,11 @@ article .sidenote figure.watch-frame > img + p.caption
 
 /* FOOTER */
 
-footer {
+footer
+{
     background-color: #111;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 
 /* HELPERS */
@@ -275,17 +276,19 @@ footer {
 
     article .sidenote figure.mac-screenshot
     {
+        margin-left: 10px;
         margin-top: -25px;
         margin-bottom: 25px;
     }
 
     article .sidenote figure.phone-frame-trimmed
     {
-        margin: 0 40px 30px;
+        margin: 0 40px 30px 0;
     }
 
     article .sidenote figure.watch-frame
     {
+        margin-left: 10px;
         margin-top: -35px;
         margin-bottom: 25px;
     }

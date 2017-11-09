@@ -1,0 +1,97 @@
+body.invert
+{
+    background-color: #fff;
+    color: #101010;
+}
+
+.invert .navbar-default
+{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.invert .navbar-default .navbar-brand,
+.invert .navbar-default .navbar-nav > li > a,
+.invert .navbar-default .navbar-text
+{
+    color: #101010;
+}
+
+.invert .navbar-default .navbar-nav > li > a:hover
+{
+    color: #c7254e;
+}
+
+.invert #menu-github a
+{
+    background-image: url(../images/github_invert.png);
+}
+
+.invert #menu-github a:hover
+{
+    background-image: url(../images/github_hover.png);
+}
+
+.invert article::before
+{
+    background-color: #e6e6e6;
+}
+
+.invert .h1, .invert .h2, .invert .h3, .invert .h4, .invert .h5, .invert .h6,
+.invert h1 .invert h2, .invert h3, .invert h4, .invert h5, .invert h6,
+.invert p.title, .invert p.subtitle
+{
+    color: #101010;
+}
+
+.invert footer
+{
+    background-color: #dedede;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+{
+    /* Retina-specific stuff here */
+    .invert #menu-github a
+    {
+        background-image: url(../images/github_invert@2x.png);
+    }
+
+    .invert #menu-github a:hover
+    {
+        background-image: url(../images/github_hover@2x.png);
+    }
+}
+
+/* INVERTER BUTTONS */
+
+span.button-invert
+{
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+span#jetblack
+{
+    display: none;
+
+    background-color: #101010;
+    color: #fff;
+}
+
+span#jonyive
+{
+    display: inline;
+
+    background-color: #fff;
+    color: #101010;
+}
+
+body.invert span#jetblack
+{
+    display: inline;
+}
+
+body.invert span#jonyive
+{
+    display: none;
+}

@@ -81,10 +81,10 @@ iframe.github
 #menu-github a
 {
 	background-image: url(../images/github.png);
-	background-size: 16px;
 	background-repeat: no-repeat;
-	background-position: left 29px;
-	padding-left: 22px;
+    background-size: 16px;
+    background-position: calc(50% - 30px) 14px;
+    padding-left: 30px;
 }
 
 #menu-github a:hover
@@ -240,6 +240,12 @@ footer
         margin-bottom: -15px;
     }
 
+    #menu-github a
+    {
+        background-position: left 29px;
+        padding-left: 22px;
+    }
+
     article .section
     {
         width: 100%;
@@ -295,13 +301,16 @@ footer
 
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+{
     /* Retina-specific stuff here */
-	#menu-github a {
+	#menu-github a
+    {
 		background-image: url(../images/github@2x.png);
 	}
 	
-	#menu-github a:hover {
+	#menu-github a:hover
+    {
 		background-image: url(../images/github_hover@2x.png);
 	}
 }

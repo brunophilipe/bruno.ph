@@ -47,36 +47,38 @@
 	</nav>
 
 		<main role="main" aria-label="Content">
-			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+			<div class="container">
+	<div class="row">
+		<article>
+			<div class="section">
+				<p class="title">tune</p>
+				<p class="subtitle">Command-line interface for iTunes.</p>
+				<p>
+					
+					<span class="label label-primary">macOS</span>
+					
+					<span class="label label-primary">ScriptingBridge</span>
+					
+					<span class="label label-primary">Swift</span>
+					
+				</p>
+			</div>
+			<div class="sidenote">
+				<figure class="mac-screenshot">
+					<img src="/newsite/images/projects/tune.png" data-rjs="/newsite/images/projects/tune@2x.png" alt="Screenshot of Noto">
+				</figure>
+			</div>
+			<div class="section">
+				<p>Many times while at work, or while managing one of my VPS machines, I felt like I wanted to play some specific song from my iTunes library. But because I had my screen covered with several terminal sessions, many times in full-screen, it felt like doing this and then breaking my workflow was too much effort.</p>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
-    <p class="post-meta">
-      <time datetime="2017-11-01T02:34:03+01:00" itemprop="datePublished">
-        
-        Nov 1, 2017
-      </time>
-      </p>
-  </header>
+<p>So in a reversal of what I did with Cakebrew, I wrote a command-line tool to control a graphical application. Because ScriptingBridge, a fantastic feature from the heydays of Mac OS X, is still present in macOS, this was as easy as it can be. A simple programming interface is auto-generated, to which you can link and build code that sends and receives information from other applications.</p>
 
-  <div class="post-content" itemprop="articleBody">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>A first version was a simple command line input-output program, with at most a single prompt in case your query produced more than one relevant result. Later I rewrote almost the entire thing to have a prettier text interface, using <code class="highlighter-rouge">ncurses</code>.</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
-  </div>
-</article>
+			</div>
+		</article>
+	</div>
+</div>
 
 		</main>
 

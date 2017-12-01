@@ -48,6 +48,11 @@ body.invert
     background-color: #dedede;
 }
 
+.invert a::selection
+{
+    color: #fff;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
 {
     /* Retina-specific stuff here */

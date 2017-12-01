@@ -34,6 +34,11 @@ iframe.github
     background-color: rgba(225, 42, 88, 0.85);
 }
 
+a::selection
+{
+    color: #000;
+}
+
 /* NAV BAR */
 
 #navbar
@@ -200,7 +205,7 @@ article .sidenote figure.mac-screenshot > img + p.caption
     margin-bottom: 30px;
 }
 
-article .sidenote figure.phone-frame-trimmed
+article .sidenote figure.phone-frame-trimmed, article .sidenote figure.phone-frame
 {
     margin: 40px 0;
 }
@@ -250,6 +255,11 @@ footer
     {
         width: 100%;
     }
+
+    footer
+    {
+        margin-top: 60px;
+    }
 }
 
 @media screen and (min-width: 992px)
@@ -287,7 +297,7 @@ footer
         margin-bottom: 25px;
     }
 
-    article .sidenote figure.phone-frame-trimmed
+    article .sidenote figure.phone-frame-trimmed, article .sidenote figure.phone-frame
     {
         margin: 0 40px 30px 0;
     }

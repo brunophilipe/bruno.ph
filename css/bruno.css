@@ -46,6 +46,12 @@ a::selection
     text-align: center;
 }
 
+.navbar-nav > li > a
+{
+    font-family: "Inter UI", "Source Sans Pro", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
 .navbar-default
 {
 	background-color: rgba(0, 0, 0, 0.9);
@@ -53,7 +59,7 @@ a::selection
 
 .navbar-default .navbar-brand
 {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .navbar-nav.navbar-left
@@ -115,7 +121,7 @@ a.btn:hover
 p.title
 {
     font-family: "Inter UI", "Source Sans Pro", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.2;
     color: #ffffff;
     font-size: 32px;
@@ -125,7 +131,7 @@ p.title
 p.subtitle
 {
     font-family: "Inter UI", "Source Sans Pro", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.2;
     color: #ffffff;
     font-size: 18px;
@@ -197,7 +203,7 @@ p.caption
 p.caption-instruction
 {
     color: #aaaaaa;
-    font-weight: 600;
+    font-weight: normal;
 }
 
 article .sidenote figure.mac-screenshot > img + p.caption

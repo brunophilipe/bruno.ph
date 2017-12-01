@@ -81,6 +81,7 @@ a::selection
 .navbar-brand
 {
     font-size: 26px;
+    font-family: "Inter UI", "Source Sans Pro", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #menu-github a
@@ -113,7 +114,7 @@ a.btn:hover
 
 p.title
 {
-    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Inter UI", "Source Sans Pro", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: #ffffff;
@@ -123,7 +124,7 @@ p.title
 
 p.subtitle
 {
-    font-family: "SFUIDisplay-Medium", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Inter UI", "Source Sans Pro", "SFUIText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: #ffffff;
@@ -132,7 +133,7 @@ p.subtitle
 
 article
 {
-    line-height: 2;
+    line-height: 1.7;
     padding-top: 20px;
 }
 

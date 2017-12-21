@@ -113,6 +113,11 @@ a::selection
     font-weight: bold;
 }
 
+.btn.btn-responsive
+{
+    width: 100%;
+}
+
 a.btn:hover
 {
     color: rgba(255, 255, 255, 0.9);
@@ -239,6 +244,11 @@ footer
     span.navbar-brand
     {
         display: none;
+    }
+
+    .btn.btn-responsive
+    {
+        width: auto;
     }
 
     .navbar-nav.navbar-center

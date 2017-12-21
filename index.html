@@ -33,6 +33,7 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
+					<li class="visible-xs"><a href="/newsite/">Home</a></li>
 					<li><a href="/newsite/about">About Me</a></li>
 					<li><a href="/blog">Blog</a></li>
 				</ul>
@@ -53,69 +54,73 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<p class="title">Software Engineer</p>
-			<p class="subtitle">I like pretty pixel-perfect user interfaces and neat modular code.</p>
+			<p class="subtitle">I like pixel-perfect user interfaces and neat modular code.</p>
 			<p>Welcome to my homepage! 👋</p>
 
-<p>Here is where I put all of the projects I have created recently, or maybe not that recently, but that I still think are cool. Most of my projects involve the Swift programming language, and are Apps either for iOS or macOS.</p>
+<p>Here is where I put all of the projects I have created recently, or maybe not that recently, but that I still think are cool. Most of my recent projects involve the Swift programming language (also Objective-C), and are Apps either for iOS or macOS.</p>
 
-<p>Fell free to also visit my <a href="/blog">Blog</a>, where I occasionally write something about programming.</p>
+<p>You can also visit my <a href="/blog">Blog</a>, where I occasionally write something about programming.</p>
 
 		</div>
 	</div>
 	
 	<article>
-		<div class="section">
-			<p class="title">Noto</p>
-			<p class="subtitle">Plain-text editor for macOS written in Swift.</p>
-			<p>
-				
-				<span class="label label-primary">macOS</span>
-				
-				<span class="label label-primary">Cocoa</span>
-				
-				<span class="label label-primary">Swift</span>
-				
-			</p>
-		</div>
-		<div class="sidenote">
-			<figure class="mac-screenshot">
-				<img src="/newsite/images/projects/noto.png" data-rjs="/newsite/images/projects/noto@2x.png" alt="Screenshot of Noto">
-			</figure>
-		</div>
-		<div class="section clearfix">
-			<p>A plain-text editor for macOS with a focus on a minimalistic user interface and powerful themes functionality.</p>
+	<div class="section">
+		<p class="title">Noto</p>
+		<p class="subtitle">Plain-text editor for macOS written in Swift.</p>
+		<p>
+			
+				<a href="/newsite/tags/macOS"><span class="label label-primary">macOS</span></a>
+			
+				<a href="/newsite/tags/Cocoa"><span class="label label-primary">Cocoa</span></a>
+			
+				<a href="/newsite/tags/Swift"><span class="label label-primary">Swift</span></a>
+			
+		</p>
+	</div>
+	
+	<div class="sidenote">
+		<figure class="mac-screenshot">
+			<img src="/newsite/images/projects/noto.png" data-rjs="/newsite/images/projects/noto@2x.png" alt="Screenshot of Noto">
+		</figure>
+	</div>
+	
+	<div class="section clearfix">
+		<p>A plain-text editor for macOS with a focus on a minimalistic user interface and powerful themes functionality.</p>
 
 <p>Because some people prefer light text on dark background, others dark text on white backgrounds, some others enjoy sepia tones, and others something completely different, it seemed an important feature to allow the user to pick whichever colors they want for the entire document interface.</p>
 
 <p>This project was inspired by a previous project of mine, <a href="/software/tiptyper">TipTyper</a>, which was also a plain-text editor, but written in Objective-C. That was a project that taught me Cocoa programming. Now that I feel I have a good knowledge of that library, it felt appropriate to re-do that project, but now using the fantastic Swift programming language.</p>
 
-			<p class="more-link">
-				<a href="/newsite/project/1" class="btn bg-primary">Read More</a>
-			</p>
-		</div>
-	</article>
+		<p class="more-link">
+			<a href="/newsite/project/1" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	
 	<article>
-		<div class="section">
-			<p class="title">Cakebrew</p>
-			<p class="subtitle">Graphical interface for Homebrew package manager.</p>
-			<p>
-				
-				<span class="label label-primary">macOS</span>
-				
-				<span class="label label-primary">Cocoa</span>
-				
-				<span class="label label-primary">Objective-C</span>
-				
-			</p>
-		</div>
-		<div class="sidenote">
-			<figure class="mac-screenshot">
-				<img src="/newsite/images/projects/cakebrew.png" data-rjs="/newsite/images/projects/cakebrew@2x.png" alt="Screenshot of Noto">
-			</figure>
-		</div>
-		<div class="section clearfix">
-			<p>Graphical interfaces for package managers already existed for several (if not all) Linux distros, but there were none for Mac. I decided it would be a good opportunity to learn more about Cocoa development, and I had a lot of fun doing it.</p>
+	<div class="section">
+		<p class="title">Cakebrew</p>
+		<p class="subtitle">Graphical interface for Homebrew package manager.</p>
+		<p>
+			
+				<a href="/newsite/tags/macOS"><span class="label label-primary">macOS</span></a>
+			
+				<a href="/newsite/tags/Cocoa"><span class="label label-primary">Cocoa</span></a>
+			
+				<a href="/newsite/tags/Objective-C"><span class="label label-primary">Objective-C</span></a>
+			
+		</p>
+	</div>
+	
+	<div class="sidenote">
+		<figure class="mac-screenshot">
+			<img src="/newsite/images/projects/cakebrew.png" data-rjs="/newsite/images/projects/cakebrew@2x.png" alt="Screenshot of Cakebrew">
+		</figure>
+	</div>
+	
+	<div class="section clearfix">
+		<p>Graphical interfaces for package managers already existed for several (if not all) Linux distros, but there were none for Mac. I decided it would be a good opportunity to learn more about Cocoa development, and I had a lot of fun doing it.</p>
 
 <p>After a couple of bloggers mentioned Cakebrew in their work, it showed up on <a href="https://news.ycombinator.com/item?id=7668383">Hacker News</a>, where it aggregated over 300 points. That week the project popularity exploded: several GBs of traffic were observed in its homepage, and it was featured on GitHub trending repositories.</p>
 
@@ -123,59 +128,69 @@
 
 <p>Overall it makes available most of the basic features through the UI, and it still works well. Occasionally I still release updates to fix bugs when required.</p>
 
-			<p class="more-link">
-				<a href="/newsite/project/10" class="btn bg-primary">Read More</a>
-			</p>
-		</div>
-	</article>
+		<p class="more-link">
+			<a href="/newsite/project/10" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	
 	<article>
-		<div class="section">
-			<p class="title">x2048</p>
-			<p class="subtitle">Hexagonal version of 2048 puzzle game for iOS.</p>
-			<p>
-				
-				<span class="label label-primary">iOS</span>
-				
-				<span class="label label-primary">SpriteKit</span>
-				
-			</p>
-		</div>
-		<div class="sidenote">
-			<figure class="phone-frame">
-				<img src="/newsite/images/projects/x2048.png" data-rjs="/newsite/images/projects/x2048@2x.png" alt="Screenshot of Noto">
-			</figure>
-		</div>
-		<div class="section clearfix">
-			<p>x2048 is a puzzle game for iPhone, iPad and iPod touch that I developed around 2012. It is a version of the (at the time) popular 2048 puzzle game, but on an hexagonal board instead of a 4x4 matrix.</p>
+	<div class="section">
+		<p class="title">x2048</p>
+		<p class="subtitle">Hexagonal version of 2048 puzzle game for iOS.</p>
+		<p>
+			
+				<a href="/newsite/tags/iOS"><span class="label label-primary">iOS</span></a>
+			
+				<a href="/newsite/tags/SpriteKit"><span class="label label-primary">SpriteKit</span></a>
+			
+				<a href="/newsite/tags/Objective-C"><span class="label label-primary">Objective-C</span></a>
+			
+		</p>
+	</div>
+	
+	<div class="sidenote">
+		<figure class="phone-frame">
+			<img src="/newsite/images/projects/x2048.png" data-rjs="/newsite/images/projects/x2048@2x.png" alt="Screenshot of x2048">
+		</figure>
+	</div>
+	
+	<div class="section clearfix">
+		<p>x2048 is a puzzle game for iPhone, iPad and iPod touch that I developed around 2012. It is a version of the (at the time) popular 2048 puzzle game, but on an hexagonal board instead of a 4x4 matrix.</p>
 
 <p>It was my first proper game for iOS, and it presented several new challenges. It was made using Apple’s SpriteKit. One of the main challenges was creating the recursive algorithm that calculates the movement for each disc, detecting discs movements and merges. A bit later I also implemented in-app purchases using Apple’s iAP APIs, which was another fun challenge on itself.</p>
 
 <p>At some point I ported the game for macOS, but the gameplay was less than optimal, so I never released it.</p>
 
-			<p class="more-link">
-				<a href="/newsite/project/11" class="btn bg-primary">Read More</a>
-			</p>
-		</div>
-	</article>
+		<p class="more-link">
+			<a href="/newsite/project/11" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	
 	<article>
-		<div class="section">
-			<p class="title">Is It Down?</p>
-			<p class="subtitle">Service uptime checker widget for iOS.</p>
-			<p>
-				
-				<span class="label label-primary">iOS</span>
-				
-			</p>
-		</div>
-		<div class="sidenote">
-			<figure class="phone-frame">
-				<img src="/newsite/images/projects/is-it-down.png" data-rjs="/newsite/images/projects/is-it-down@2x.png" alt="Screenshot of Noto">
-			</figure>
-		</div>
-		<div class="section clearfix">
-			<p>Widgets in iOS are meant to provide data that is brief and meaningful at a glance. When lock screen widgets were announced, I quickly came up with the idea of this widget.</p>
+	<div class="section">
+		<p class="title">Is It Down?</p>
+		<p class="subtitle">Service uptime checker widget for iOS.</p>
+		<p>
+			
+				<a href="/newsite/tags/iOS"><span class="label label-primary">iOS</span></a>
+			
+				<a href="/newsite/tags/UIKit"><span class="label label-primary">UIKit</span></a>
+			
+				<a href="/newsite/tags/Objective-C"><span class="label label-primary">Objective-C</span></a>
+			
+		</p>
+	</div>
+	
+	<div class="sidenote">
+		<figure class="phone-frame">
+			<img src="/newsite/images/projects/is-it-down.png" data-rjs="/newsite/images/projects/is-it-down@2x.png" alt="Screenshot of Is It Down?">
+		</figure>
+	</div>
+	
+	<div class="section clearfix">
+		<p>Widgets in iOS are meant to provide data that is brief and meaningful at a glance. When lock screen widgets were announced, I quickly came up with the idea of this widget.</p>
 
 <p>Simply put, it allows the user to pick which servers, and individual ports on each server, to test every time the widget becomes visible. Due to the limitations of the widget framework on iOS, it is not possible to run the checks on the background and send notifications to the user, but it still works well enough.</p>
 
@@ -183,63 +198,73 @@
 
 <p>This is my most popular app in the App Store, and I believe it is because it has a simple premise, and delivers on it well. It was a simple App to develop, but I don’t think this diminishes its relevance at all.</p>
 
-			<p class="more-link">
-				<a href="/newsite/project/12" class="btn bg-primary">Read More</a>
-			</p>
-		</div>
-	</article>
+		<p class="more-link">
+			<a href="/newsite/project/12" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	
 	<article>
-		<div class="section">
-			<p class="title">Nixie Watch</p>
-			<p class="subtitle">Nixie-tube watch “face” for Apple Watch.</p>
-			<p>
-				
-				<span class="label label-primary">watchOS,</span>
-				
-				<span class="label label-primary">Swift,</span>
-				
-				<span class="label label-primary">CoreImage</span>
-				
-			</p>
-		</div>
+	<div class="section">
+		<p class="title">Nixie Watch</p>
+		<p class="subtitle">Nixie-tube watch “face” for Apple Watch.</p>
+		<p>
+			
+				<a href="/newsite/tags/watchOS"><span class="label label-primary">watchOS</span></a>
+			
+				<a href="/newsite/tags/CoreImage"><span class="label label-primary">CoreImage</span></a>
+			
+				<a href="/newsite/tags/Swift"><span class="label label-primary">Swift</span></a>
+			
+		</p>
+	</div>
+	
 		<div class="sidenote">
-			<figure class="watch-frame">
-				<img src="/newsite/images/projects/nixie-watch.png" data-rjs="/newsite/images/projects/nixie-watch@2x.png" alt="Screenshot of Noto">
-			</figure>
-		</div>
-		<div class="section clearfix">
-			<p>When I saw Woz demonstrating his “Nixie-Tube wrist watch”, a behemoth that makes the Apple watch look like futuristic miniature tech, I decided it would be a good watch face to develop. However once it became clear Apple doesn’t want developers to create third party faces, I decided to simply make it anyway and put it on GitHub.</p>
+	<figure class="watch-frame">
+		<video playsinline onclick="this.style.opacity=1.0;this.play()" onended="this.style.opacity=0.0" style="position: absolute; margin-left: 74px; margin-top: 157px; height: 167px; width: 154px; opacity: 0.0; cursor: pointer;">
+			<source src="/newsite/videos/nixie-watch.mp4" type="video/mp4">
+		</video>
+		<img src="/newsite/images/projects/nixie-watch.png" data-rjs="/newsite/images/projects/nixie-watch@2x.png" alt="Screenshot of Noto">
+		<p class="caption caption-instruction">Tap watch to run animation</p>
+	</figure>
+</div>
+	
+	<div class="section clearfix">
+		<p>When I saw Woz demonstrating his “Nixie-Tube wrist watch”, a behemoth that makes the Apple watch look like futuristic miniature tech, I decided it would be a good watch face to develop. However once it became clear Apple doesn’t want developers to create third party faces, I decided to simply make it anyway and put it on GitHub.</p>
 
 <p>It was quite a challenge to build, in the end, since watchOS (especially watchOS 2, at the time) has very limited graphics capabilities. I had to render the watch face in memory using the CoreGraphics, output that to an image to later display in the screen.</p>
 
 <p>It is a project I go over every once in a while and change some small things, and it certainly makes people curious when I show them my “exclusive” watch face.</p>
 
-			<p class="more-link">
-				<a href="/newsite/project/14" class="btn bg-primary">Read More</a>
-			</p>
-		</div>
-	</article>
+		<p class="more-link">
+			<a href="/newsite/project/14" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	
 	<article>
-		<div class="section">
-			<p class="title">TapWheel</p>
-			<p class="subtitle">iPod Classic simulator for iOS.</p>
-			<p>
-				
-				<span class="label label-primary">iOS,</span>
-				
-				<span class="label label-primary">UIKit</span>
-				
-			</p>
-		</div>
-		<div class="sidenote">
-			<figure class="phone-frame">
-				<img src="/newsite/images/projects/tapwheel.png" data-rjs="/newsite/images/projects/tapwheel@2x.png" alt="Screenshot of Noto">
-			</figure>
-		</div>
-		<div class="section clearfix">
-			<p>This was an experiment to discover how complicated it would be to write an iPod simulator that actually plays music. Result: not too bad!</p>
+	<div class="section">
+		<p class="title">TapWheel</p>
+		<p class="subtitle">iPod Classic simulator for iOS.</p>
+		<p>
+			
+				<a href="/newsite/tags/iOS"><span class="label label-primary">iOS</span></a>
+			
+				<a href="/newsite/tags/UIKit"><span class="label label-primary">UIKit</span></a>
+			
+				<a href="/newsite/tags/Objective-C"><span class="label label-primary">Objective-C</span></a>
+			
+		</p>
+	</div>
+	
+	<div class="sidenote">
+		<figure class="phone-frame">
+			<img src="/newsite/images/projects/tapwheel.png" data-rjs="/newsite/images/projects/tapwheel@2x.png" alt="Screenshot of TapWheel">
+		</figure>
+	</div>
+	
+	<div class="section clearfix">
+		<p>This was an experiment to discover how complicated it would be to write an iPod simulator that actually plays music. Result: not too bad!</p>
 
 <p>It uses the Audio library of the device it is running from (therefore won’t run properly in a simulator) and uses actual UIKit table views configured to emulate the iPod interface. Also, the click wheel accepts rotary inputs just like the real thing.</p>
 
@@ -247,43 +272,45 @@
 
 <p>Unfortunately Apps that emulate an iPod are vetoed by Apple (guess how many people must have tried that already), so this won’t be in the App Store any time soon…</p>
 
-			<p class="more-link">
-				<a href="/newsite/project/15" class="btn bg-primary">Read More</a>
-			</p>
-		</div>
-	</article>
+		<p class="more-link">
+			<a href="/newsite/project/15" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	
 	<article>
-		<div class="section">
-			<p class="title">tune</p>
-			<p class="subtitle">Command-line interface for iTunes.</p>
-			<p>
-				
-				<span class="label label-primary">macOS</span>
-				
-				<span class="label label-primary">ScriptingBridge</span>
-				
-				<span class="label label-primary">Swift</span>
-				
-			</p>
-		</div>
-		<div class="sidenote">
-			<figure class="mac-screenshot">
-				<img src="/newsite/images/projects/tune.png" data-rjs="/newsite/images/projects/tune@2x.png" alt="Screenshot of Noto">
-			</figure>
-		</div>
-		<div class="section clearfix">
-			<p>Many times while at work, or while managing one of my VPS machines, I felt like I wanted to play some specific song from my iTunes library. But because I had my screen covered with several terminal sessions, many times in full-screen, it felt like doing this and then breaking my workflow was too much effort.</p>
+	<div class="section">
+		<p class="title">tune</p>
+		<p class="subtitle">Command-line interface for iTunes.</p>
+		<p>
+			
+				<a href="/newsite/tags/macOS"><span class="label label-primary">macOS</span></a>
+			
+				<a href="/newsite/tags/ScriptingBridge"><span class="label label-primary">ScriptingBridge</span></a>
+			
+				<a href="/newsite/tags/Swift"><span class="label label-primary">Swift</span></a>
+			
+		</p>
+	</div>
+	
+	<div class="sidenote">
+		<figure class="mac-screenshot">
+			<img src="/newsite/images/projects/tune.png" data-rjs="/newsite/images/projects/tune@2x.png" alt="Screenshot of tune">
+		</figure>
+	</div>
+	
+	<div class="section clearfix">
+		<p>Many times while at work, or while managing one of my VPS machines, I felt like I wanted to play some specific song from my iTunes library. But because I had my screen covered with several terminal sessions, many times in full-screen, it felt like doing this and then breaking my workflow was too much effort.</p>
 
 <p>So in a reversal of what I did with Cakebrew, I wrote a command-line tool to control a graphical application. Because ScriptingBridge, a fantastic feature from the heydays of Mac OS X, is still present in macOS, this was as easy as it can be. A simple programming interface is auto-generated, to which you can link and build code that sends and receives information from other applications.</p>
 
 <p>A first version was a simple command line input-output program, with at most a single prompt in case your query produced more than one relevant result. Later I rewrote almost the entire thing to have a prettier text interface, using <code class="highlighter-rouge">ncurses</code>.</p>
 
-			<p class="more-link">
-				<a href="/newsite/project/16" class="btn bg-primary">Read More</a>
-			</p>
-		</div>
-	</article>
+		<p class="more-link">
+			<a href="/newsite/project/16" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	
 </div>
 

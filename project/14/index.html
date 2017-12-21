@@ -33,6 +33,7 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
+					<li class="visible-xs"><a href="/newsite/">Home</a></li>
 					<li><a href="/newsite/about">About Me</a></li>
 					<li><a href="/blog">Blog</a></li>
 				</ul>
@@ -50,34 +51,44 @@
 		<main role="main" aria-label="Content">
 			<div class="container">
 	<div class="row">
+		
 		<article>
-			<div class="section">
-				<p class="title">Nixie Watch</p>
-				<p class="subtitle">Nixie-tube watch “face” for Apple Watch.</p>
-				<p>
-					
-					<span class="label label-primary">watchOS,</span>
-					
-					<span class="label label-primary">Swift,</span>
-					
-					<span class="label label-primary">CoreImage</span>
-					
-				</p>
-			</div>
-			<div class="sidenote">
-				<figure class="mac-screenshot">
-					<img src="/newsite/images/projects/nixie-watch.png" data-rjs="/newsite/images/projects/nixie-watch@2x.png" alt="Screenshot of Noto">
-				</figure>
-			</div>
-			<div class="section">
-				<p>When I saw Woz demonstrating his “Nixie-Tube wrist watch”, a behemoth that makes the Apple watch look like futuristic miniature tech, I decided it would be a good watch face to develop. However once it became clear Apple doesn’t want developers to create third party faces, I decided to simply make it anyway and put it on GitHub.</p>
+	<div class="section">
+		<p class="title">Nixie Watch</p>
+		<p class="subtitle">Nixie-tube watch “face” for Apple Watch.</p>
+		<p>
+			
+				<a href="/newsite/tags/watchOS"><span class="label label-primary">watchOS</span></a>
+			
+				<a href="/newsite/tags/CoreImage"><span class="label label-primary">CoreImage</span></a>
+			
+				<a href="/newsite/tags/Swift"><span class="label label-primary">Swift</span></a>
+			
+		</p>
+	</div>
+	
+		<div class="sidenote">
+	<figure class="watch-frame">
+		<video playsinline onclick="this.style.opacity=1.0;this.play()" onended="this.style.opacity=0.0" style="position: absolute; margin-left: 74px; margin-top: 157px; height: 167px; width: 154px; opacity: 0.0; cursor: pointer;">
+			<source src="/newsite/videos/nixie-watch.mp4" type="video/mp4">
+		</video>
+		<img src="/newsite/images/projects/nixie-watch.png" data-rjs="/newsite/images/projects/nixie-watch@2x.png" alt="Screenshot of Noto">
+		<p class="caption caption-instruction">Tap watch to run animation</p>
+	</figure>
+</div>
+	
+	<div class="section clearfix">
+		<p>When I saw Woz demonstrating his “Nixie-Tube wrist watch”, a behemoth that makes the Apple watch look like futuristic miniature tech, I decided it would be a good watch face to develop. However once it became clear Apple doesn’t want developers to create third party faces, I decided to simply make it anyway and put it on GitHub.</p>
 
 <p>It was quite a challenge to build, in the end, since watchOS (especially watchOS 2, at the time) has very limited graphics capabilities. I had to render the watch face in memory using the CoreGraphics, output that to an image to later display in the screen.</p>
 
 <p>It is a project I go over every once in a while and change some small things, and it certainly makes people curious when I show them my “exclusive” watch face.</p>
 
-			</div>
-		</article>
+		<p class="more-link">
+			<a href="/newsite/project/14" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	</div>
 </div>
 

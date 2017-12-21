@@ -33,6 +33,7 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
+					<li class="visible-xs"><a href="/newsite/">Home</a></li>
 					<li><a href="/newsite/about">About Me</a></li>
 					<li><a href="/blog">Blog</a></li>
 				</ul>
@@ -50,34 +51,40 @@
 		<main role="main" aria-label="Content">
 			<div class="container">
 	<div class="row">
+		
 		<article>
-			<div class="section">
-				<p class="title">tune</p>
-				<p class="subtitle">Command-line interface for iTunes.</p>
-				<p>
-					
-					<span class="label label-primary">macOS</span>
-					
-					<span class="label label-primary">ScriptingBridge</span>
-					
-					<span class="label label-primary">Swift</span>
-					
-				</p>
-			</div>
-			<div class="sidenote">
-				<figure class="mac-screenshot">
-					<img src="/newsite/images/projects/tune.png" data-rjs="/newsite/images/projects/tune@2x.png" alt="Screenshot of Noto">
-				</figure>
-			</div>
-			<div class="section">
-				<p>Many times while at work, or while managing one of my VPS machines, I felt like I wanted to play some specific song from my iTunes library. But because I had my screen covered with several terminal sessions, many times in full-screen, it felt like doing this and then breaking my workflow was too much effort.</p>
+	<div class="section">
+		<p class="title">tune</p>
+		<p class="subtitle">Command-line interface for iTunes.</p>
+		<p>
+			
+				<a href="/newsite/tags/macOS"><span class="label label-primary">macOS</span></a>
+			
+				<a href="/newsite/tags/ScriptingBridge"><span class="label label-primary">ScriptingBridge</span></a>
+			
+				<a href="/newsite/tags/Swift"><span class="label label-primary">Swift</span></a>
+			
+		</p>
+	</div>
+	
+	<div class="sidenote">
+		<figure class="mac-screenshot">
+			<img src="/newsite/images/projects/tune.png" data-rjs="/newsite/images/projects/tune@2x.png" alt="Screenshot of tune">
+		</figure>
+	</div>
+	
+	<div class="section clearfix">
+		<p>Many times while at work, or while managing one of my VPS machines, I felt like I wanted to play some specific song from my iTunes library. But because I had my screen covered with several terminal sessions, many times in full-screen, it felt like doing this and then breaking my workflow was too much effort.</p>
 
 <p>So in a reversal of what I did with Cakebrew, I wrote a command-line tool to control a graphical application. Because ScriptingBridge, a fantastic feature from the heydays of Mac OS X, is still present in macOS, this was as easy as it can be. A simple programming interface is auto-generated, to which you can link and build code that sends and receives information from other applications.</p>
 
 <p>A first version was a simple command line input-output program, with at most a single prompt in case your query produced more than one relevant result. Later I rewrote almost the entire thing to have a prettier text interface, using <code class="highlighter-rouge">ncurses</code>.</p>
 
-			</div>
-		</article>
+		<p class="more-link">
+			<a href="/newsite/project/16" class="btn btn-responsive bg-primary">Read More</a>
+		</p>
+	</div>
+</article>
 	</div>
 </div>
 
